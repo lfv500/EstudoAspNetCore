@@ -41,6 +41,7 @@ namespace Blog.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult Adiciona ( Post post)
         {
             lista.Add(post);
